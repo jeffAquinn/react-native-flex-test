@@ -8,7 +8,7 @@ export default class App extends React.Component {
 
     const home = (<Icon name='home' size={20}/>)
     const rocket = (<Icon name='rocket' size={15} color='#fff'/>)
-    const car = (<Icon name='car' size={15}/>)
+    // const car = (<Icon name='car' size={15}/>)
 
     return (
       <View style={{
@@ -71,7 +71,7 @@ export default class App extends React.Component {
           }}>
             <Animatable.Text animation="swing" easing="ease-out" iterationCount="infinite" style={{
               textAlign: 'center'
-            }}>{car}</Animatable.Text>
+            }}></Animatable.Text>
           </View>
         </View>
       </View>
