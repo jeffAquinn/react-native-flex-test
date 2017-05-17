@@ -51,7 +51,7 @@ export default class App extends React.Component {
             alignItems: 'center',
             justifyContent: 'center'
           }}>
-            <Animatable.Text animation="shake" easing="ease-out" iterationCount="infinite" style={{
+            <Animatable.Text animation="jello" easing="ease-in" iterationCount="infinite" style={{
               textAlign: 'center'
             }}>{rocket}</Animatable.Text>
           </View>
