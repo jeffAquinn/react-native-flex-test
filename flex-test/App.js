@@ -38,7 +38,7 @@ export default class App extends React.Component {
             }}>❤️</Animatable.Text>
           </View>
         </View>
-        <Animatable.Text animation="zoomInDown" duration="130">{rocket}</Animatable.Text>
+        <Animatable.Text animation="zoomInUp" duration={5000} >{rocket}</Animatable.Text>
         <View style={{
           width: 100,
           height: 40,
