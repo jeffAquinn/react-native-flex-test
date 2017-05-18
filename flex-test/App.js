@@ -7,7 +7,7 @@ export default class App extends React.Component {
   render() {
 
     const home = (<Icon name='home' size={20}/>)
-    const rocket = (<Icon name='rocket' size={15} color='#fff'/>)
+    const rocket = (<Icon name='rocket' size={50} color='red'/>)
     const car = (<Icon name='car' size={15}/>)
 
     return (
@@ -21,7 +21,7 @@ export default class App extends React.Component {
         <View style={{
           width: 100,
           height: 40,
-          margin: 10,
+          margin: 20,
           backgroundColor: 'blue',
           borderRadius: 10
         }}>
@@ -38,28 +38,11 @@ export default class App extends React.Component {
             }}>❤️</Animatable.Text>
           </View>
         </View>
+        <Animatable.Text animation="zoomInDown" duration="130">{rocket}</Animatable.Text>
         <View style={{
           width: 100,
           height: 40,
-          margin: 10,
-          backgroundColor: 'teal',
-          borderRadius: 10
-        }}>
-          <View style={{
-            flex: 1,
-            flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'center'
-          }}>
-            <Animatable.Text animation="jello" easing="ease-in" iterationCount="infinite" style={{
-              textAlign: 'center'
-            }}>{rocket}</Animatable.Text>
-          </View>
-        </View>
-        <View style={{
-          width: 100,
-          height: 40,
-          margin: 10,
+          margin: 20,
           backgroundColor: 'red',
           borderRadius: 10
         }}>
