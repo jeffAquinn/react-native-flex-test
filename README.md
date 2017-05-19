@@ -1,7 +1,7 @@
 # react-native-flex-test
-<bold>flex boxes with animation</bold>
+<b>flex boxes with animation</b>
 
-<header>Table of Contents</header>
+<h>Table of Contents</h>
 
 <ls>
 <li>Available Scripts</li>
