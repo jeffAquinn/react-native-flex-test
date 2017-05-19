@@ -16,10 +16,7 @@ flex boxes with animation
 <li>iOS Simulator won't open</li>
 <li>Troubleshooting</li>
 <li>QR Code does not scan</li>
-</ls>
-
-
-Updating the react-native-scripts dependency of your app should be as simple as bumping the version number in package.json and reinstalling your project's dependencies.
+</ls><br>
 
 Available Scripts
 
