@@ -3,8 +3,8 @@ flex boxes with animation
 
 <header>Table of Contents</header>
 
-
-<b>Available Scripts</b>
+<ls>
+<li>Available Scripts</li>
 npm start
 npm test
 npm run ios
@@ -25,7 +25,7 @@ Troubleshooting
 Networking
 iOS Simulator won't open
 QR Code does not scan
-
+</ls>
 
 
 Updating the react-native-scripts dependency of your app should be as simple as bumping the version number in package.json and reinstalling your project's dependencies.
