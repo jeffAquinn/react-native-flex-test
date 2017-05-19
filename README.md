@@ -4,7 +4,7 @@ flex boxes with animation
 <header>Table of Contents</header>
 
 
-<bold>Available Scripts</bold>
+<b>Available Scripts</b>
 npm start
 npm test
 npm run ios
