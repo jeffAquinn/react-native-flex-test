@@ -3,8 +3,8 @@ flex boxes with animation
 
 <header>Table of Contents</header>
 
-Updating to New Releases
-Available Scripts
+
+<bold>Available Scripts</bold>
 npm start
 npm test
 npm run ios
@@ -25,13 +25,10 @@ Troubleshooting
 Networking
 iOS Simulator won't open
 QR Code does not scan
-Updating to New Releases
 
-You should only need to update the global installation of create-react-native-app very rarely, ideally never.
+
 
 Updating the react-native-scripts dependency of your app should be as simple as bumping the version number in package.json and reinstalling your project's dependencies.
-
-Upgrading to a new version of React Native requires updating the react-native, react, and expo package versions, and setting the correct sdkVersion in app.json. See the versioning guide for up-to-date information about package version compatibility.
 
 Available Scripts
 
