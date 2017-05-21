@@ -24,17 +24,18 @@ export default class App extends React.Component {
               style={{textAlign: 'center'}}
             >
               {home}
-           </Animatable.Text>
+             </Animatable.Text>
 
           </View>
         </View>
         {/* Rocket Icon Animation  */}
-        <Animatable.Text
-          animation="zoomInUp"
-          duration={4000}
-        >
-          {rocket}
-        </Animatable.Text>
+          <Animatable.Text
+            animation="zoomInUp"
+            duration={4000}
+          >
+              {rocket}
+          </Animatable.Text>
+
         {/* Right Tab Dimensions */}
         <View style={styles.rightTab}>
           {/* Right FlexBox */}
