@@ -1,37 +1,22 @@
 # react-native-flex-test
-flex boxes with animation
+<b>flex boxes with animation</b>
 
-<header>Table of Contents</header>
+<h>Table of Contents</h>
 
-Updating to New Releases
-Available Scripts
-npm start
-npm test
-npm run ios
-npm run android
-npm run eject
-Writing and Running Tests
-Environment Variables
-Configuring Packager IP Address
-Adding Flow
-Customizing App Display Name and Icon
-Sharing and Deployment
-Publishing to Expo's React Native Community
-Building an Expo "standalone" app
-Ejecting from Create React Native App
-Build Dependencies (Xcode & Android Studio)
-Should I Use ExpoKit?
-Troubleshooting
-Networking
-iOS Simulator won't open
-QR Code does not scan
-Updating to New Releases
-
-You should only need to update the global installation of create-react-native-app very rarely, ideally never.
-
-Updating the react-native-scripts dependency of your app should be as simple as bumping the version number in package.json and reinstalling your project's dependencies.
-
-Upgrading to a new version of React Native requires updating the react-native, react, and expo package versions, and setting the correct sdkVersion in app.json. See the versioning guide for up-to-date information about package version compatibility.
+<ls>
+<li>Available Scripts</li>
+<li>npm start</li>
+<li>npm test</li>
+<li>npm run ios</li>
+<li>npm run android</li>
+<li>npm run eject</li>
+<li>Writing and Running Tests</li>
+<li>Environment Variables</li>
+<li>Configuring Packager IP Address</li>
+<li>iOS Simulator won't open</li>
+<li>Troubleshooting</li>
+<li>QR Code does not scan</li>
+</ls><br>
 
 Available Scripts
 
@@ -183,7 +168,3 @@ Make sure Xcode is installed and open it to accept the license agreement if it p
 Open Xcode's Preferences, the Locations tab, and make sure that the Command Line Tools menu option is set to something. Sometimes when the CLI tools are first installed by Homebrew this option is left blank, which can prevent Apple utilities from finding the simulator. Make sure to re-run npm/yarn run ios after doing so.
 If that doesn't work, open the Simulator, and under the app menu select Reset Contents and Settings.... After that has finished, quit the Simulator, and re-run npm/yarn run ios.
 QR Code does not scan
-
-If you're not able to scan the QR code, make sure your phone's camera is focusing correctly, and also make sure that the contrast on the two colors in your terminal is high enough. For example, WebStorm's default themes may not have enough contrast for terminal QR codes to be scannable with the system barcode scanners that the Expo app uses.
-
-If this causes problems for you, you may want to try changing your terminal's color theme to have more contrast, or running Create React Native App from a different terminal. You can also manually enter the URL printed by the packager script in the Expo app's search bar to load it manually.
