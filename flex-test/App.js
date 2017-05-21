@@ -6,7 +6,7 @@ import * as Animatable from 'react-native-animatable';
 export default class App extends React.Component {
   render() {
 
-    const home = (<Icon name='home' size={20}/>)
+    const tree = (<Icon name='tree' size={20}/>)
     const rocket = (<Icon name='rocket' size={50} color='red'/>)
     const ship = (<Icon name='ship' size={15}/>)
 
@@ -17,37 +17,41 @@ export default class App extends React.Component {
         <View style={styles.leftTab}>
           {/* Left FlexBox */}
           <View style={styles.leftFlexBox}>
-            {/* Home Icon Animation   */}
+
+        {/* Home Icon Animation   */}
             <Animatable.Text
-              animation="fadeIn"
+              animation="swing"
               easing="ease-in"
-              style={{textAlign: 'center'}}
-            >
-              {home}
+              iterationCount="infinite"
+              style={{textAlign: 'center'}}>
+              {/* Icon 1 */}
+                {tree}
              </Animatable.Text>
 
           </View>
         </View>
+
         {/* Rocket Icon Animation  */}
-          <Animatable.Text
-            animation="zoomInUp"
-            duration={4000}
-          >
-              {rocket}
-          </Animatable.Text>
+            <Animatable.Text
+              animation="zoomInUp"
+              duration={4000}>
+              {/* Icon 2 */}
+                {rocket}
+            </Animatable.Text>
 
         {/* Right Tab Dimensions */}
         <View style={styles.rightTab}>
           {/* Right FlexBox */}
           <View style={styles.rightFlexBox}>
-            {/* Ship Icon Animation */}
+
+        {/* Ship Icon Animation */}
             <Animatable.Text
               animation="swing"
               easing="ease-out"
               iterationCount="infinite"
-              style={{textAlign: 'center'}}
-            >
-              {ship}
+              style={{textAlign: 'center'}}>
+              {/* Icon 3 */}
+                {ship}
             </Animatable.Text>
 
           </View>
