@@ -8,39 +8,21 @@ export default class App extends React.Component {
 
     const home = (<Icon name='home' size={20}/>)
     const rocket = (<Icon name='rocket' size={50} color='red'/>)
-    const car = (<Icon name='car' size={15}/>)
+    const ship = (<Icon name='ship' size={15}/>)
 
     return (
-      <View style={{
-        flex: 1,
-        flexDirection: 'row',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: '#000'
-      }}>
-        <View style={{
-          width: 100,
-          height: 40,
-          margin: 20,
-          backgroundColor: 'blue',
-          borderRadius: 10
-        }}>
+      <View style={styles.container}>
+        <View style={styles.leftTab}>
+          <View style={styles.leftFlexBox}>
 
-          <View style={{
-            flex: 1,
-            flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'center'
-          }}>
-
-            <Animatable.Text animation="flash" easing="ease-out" iterationCount="infinite" style={{
+            <Animatable.Text animation="fadeIn" easing="ease-in" style={{
               textAlign: 'center'
-            }}>❤️</Animatable.Text>
+            }}>{home}</Animatable.Text>
           </View>
         </View>
-        <Animatable.Text animation="zoomInUp" duration={5000} >{rocket}</Animatable.Text>
+        <Animatable.Text animation="zoomInUp" duration={4000}>{rocket}</Animatable.Text>
         <View style={{
-          width: 100,
+          width: 120,
           height: 40,
           margin: 20,
           backgroundColor: 'red',
@@ -54,10 +36,33 @@ export default class App extends React.Component {
           }}>
             <Animatable.Text animation="swing" easing="ease-out" iterationCount="infinite" style={{
               textAlign: 'center'
-            }}>{car}</Animatable.Text>
+            }}>{ship}</Animatable.Text>
           </View>
         </View>
       </View>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#000'
+  },
+  leftTab: {
+    width: 120,
+    height: 40,
+    margin: 20,
+    backgroundColor: 'blue',
+    borderRadius: 10
+  },
+  leftFlexBox: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
+});
