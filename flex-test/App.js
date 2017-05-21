@@ -6,6 +6,7 @@ import * as Animatable from 'react-native-animatable';
 export default class App extends React.Component {
   render() {
 
+    // All Three Icons with inlineStyles
     const tree = (<Icon name='tree' size={20}/>)
     const rocket = (<Icon name='rocket' size={50} color='red'/>)
     const ship = (<Icon name='ship' size={15}/>)
